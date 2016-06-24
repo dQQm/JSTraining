@@ -1,3 +1,4 @@
+'use strict';
 (function() {
     var teams;
     $.ajax({
@@ -18,14 +19,19 @@
 
         var teamsNum = teams.teams.length;
 		var perrent=$('.teams');
+        var name='';
         for (let i = 0; i < teamsNum; i++) {
-		perrent.append('<div><img class="flag" onclick=redirect("'+teams.teams[i].name+'") src="'
-		+teams.teams[i].crestUrl+'"/><h2 class="teamName">'+teams.teams[i].name +'</h2></div>');
+            name=teams.teams[i].name
+            name=name.replace(/\s/g,'_');
+            console.log(name);
+		perrent.append('<div><img class="flag" onclick=redirect("'+name+'") src="'+
+        teams.teams[i].crestUrl+'"/><h2 class="teamName">'+teams.teams[i].name +'</h2></div>');
 		
         }
     }
-})()
+})();
 // function for redirection 
 function redirect(name){
-window.location.href="C:/Users/Tester/Desktop/index.html?"+name;
+
+    window.location.href="D:\\Projects/JSTraining/Football_fan/index.html?"+name;
 }
