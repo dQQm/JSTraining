@@ -21,7 +21,7 @@
 		var perrent=$('.teams');
         var name='';
         for (let i = 0; i < teamsNum; i++) {
-            name=teams.teams[i].name
+            name=teams.teams[i].name;
             name=name.replace(/\s/g,'_');
             console.log(name);
 		perrent.append('<div><img class="flag" onclick=redirect("'+name+'") src="'+
@@ -33,5 +33,5 @@
 // function for redirection 
 function redirect(name){
 
-    window.location.href="D:\\Projects/JSTraining/Football_fan/index.html?"+name;
+    window.location.href="http://localhost:8080/player.html?"+name;
 }
