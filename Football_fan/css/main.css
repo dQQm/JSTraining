@@ -1,15 +1,46 @@
 /* ----navigation menu---- */
 ul{
- display:none;
- list-style-type: none;
+	display:none;
+	list-style-type: none;
+	position: absolute;
+	
+}
+ li{
+ 	margin:10%;
+ 	border-bottom:1px blue solid;
+ }
+ li a{
+ 	text-decoration:none;
+ 	color:white;
+ }
+.toggle-nav{
+  	text-decoration:none;
+  	cursor:pointer;
+    width: 200px;
+    height: 200px;
+    background: url('../assets/sprite.png') -591px 0;
+    zoom: 30%;
 }
 
-a{
-  text-decoration:none;
+.menu{
+	position: absolute;
+	background-color: #037abe;
+    width: 20%;
+    height: 27%;
+    margin:auto;
 }
 
-.nav{
-  background-color:blue;
-  position: fixed;
-}
+/*----Header-----*/
 
+header{
+	display: fixed;
+	display:-ms-flexbox;
+	display:flex;
+	background-color:green;
+}
+/*---Logo---*/
+
+#logo{
+	
+	height:10em;
+}
