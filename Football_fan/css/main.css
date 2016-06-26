@@ -1,0 +1,15 @@
+/* ----navigation menu---- */
+ul{
+ display:none;
+ list-style-type: none;
+}
+
+a{
+  text-decoration:none;
+}
+
+.nav{
+  background-color:blue;
+  position: fixed;
+}
+

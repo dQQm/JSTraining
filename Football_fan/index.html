@@ -3,27 +3,36 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>PAGE TITLE</title>
+    <title>Home page</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link href="node_modules/normalizecss/normalize.css" rel="stylesheet" media="all">
-    <link href="css/teams.css" rel="stylesheet" media="all">
+    <link href="css/index.css" rel="stylesheet" media="all">
+    <link href="css/main.css" rel="stylesheet" media="all">
     <!--[if lt IE 9]><script src="js/html5shiv-printshiv.js" media="all"></script><![endif]-->
 </head>
 <body>
     <header role="banner">
-        <h1>Main Title</h1>
-        <nav role="navigation">
- 
-        </nav>
+        <h1>Home page</h1>
+       <nav class="nav">
+       <a class="toggle-nav" onclick="menu()" href="#">&#9776;</a>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Teams</a></li>
+        <li><a href="#">Matches</a></li>
+        <li><a href="#">Fan Zone</a></li>
+        <li><a href="#">About us</a></li>
+    </ul>
+    </nav>
+    <img role="logo" src="assets/logo.png"/>
     </header>
+
  
     <div class="wrap">
-        <main role="teams" class="teams">
+        <main role="teams">
  
         </main>
     </div>
- 
     <footer role="contentinfo">
         <address>
           <p>For further information, please contact <a href="mailto:admin@example.com">Max Mustermann</a>.</p>
@@ -31,7 +40,9 @@
         <small>Copyright &copy; <time datetime="2016">2016</time></small>
     </footer>
     <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="js/teams.js"></script>
+   
+    <script src="js/index.js"></script>
+  
  
 </body>
 </html>

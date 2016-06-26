@@ -12,6 +12,7 @@
     });
     
 })();
+
     function displayPlayers(players){
         var teamName=getParam();
         var len=players.teams.length;
@@ -25,11 +26,11 @@
 
         }
     }
-
+//getting the team name from the url 
     function getParam() {
         return window.location.search.substring(1);
     }   
-
+    // display players function 
     function player(player){
         var perrent = $('.players');
         for(let x in player.players){
