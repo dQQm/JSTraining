@@ -1,0 +1,34 @@
+.content{
+	display:-ms-flexbox;
+	display:flex;
+	-ms-flex-line-pack:distribute;
+	    -ms-flex-pack:distribute;
+	        justify-content:space-around;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	        margin:0 auto;
+}
+
+.match{
+	display:flex;
+	width:30%;
+	margin:0.5%;
+
+}
+
+.winner{
+	background-color:green;
+}
+
+.loser{
+	background-color:red;
+}
+
+.neutral{
+	background-color:blue;
+}
+
+.neutral, .loser, .winner{
+	padding:5%;
+	width:40%;
+}

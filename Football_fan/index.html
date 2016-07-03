@@ -13,11 +13,13 @@
     </head>
     <body>
         <header role="banner">
-            <h1>Football Fan</h1>
+            <h1 id="title">Football Fan</h1>
             <img role="logo" id="logo" src="assets/logo.png"/>
-            <h2>Menu</h2>
+            
             <nav class="nav">
-
+             <div id="menu">
+             <h2>MENU</h2>
+             </div>
                 <div class="toggle-nav" onclick="menu()"></div>
                 <ul class="menu">
                     <li><a href="#">Home</a></li>
@@ -27,8 +29,34 @@
                     <li><a href="#">About us</a></li>
                 </ul>
             </nav>
+            </header>
+            <div class="container">
+            <main class="content">
+            <div class="news">
+                news
+            </div>
+            <div class="teams">
+                teams
+            </div>
+             <div class="match">
+                matches
+            </div>
+             <div class="players">
+                playesrs
+            </div>
+             <div class="winer">
+             winer
+                
+            </div>
+            <div class="fanzone">
+            fanzone
+                
+            </div>
+
+                
+            </main>
+            </div>
             
-        </header>
         
         <div class="wrap">
             <main role="teams">
@@ -42,7 +70,7 @@
             <small>Copyright &copy; <time datetime="2016">2016</time></small>
         </footer>
         <script src="node_modules/jquery/dist/jquery.js"></script>
-        
+        <script src="js/main.js"></script>
         <script src="js/index.js"></script>
         
         

@@ -3,7 +3,6 @@ ul{
 	display:none;
 	list-style-type: none;
 	position: absolute;
-	
 }
  li{
  	margin:10%;
@@ -13,6 +12,10 @@ ul{
  	text-decoration:none;
  	color:white;
  }
+ .nav {
+ 	display:inline-flex;
+ 	margin-right:2%;
+ }
 .toggle-nav{
   	text-decoration:none;
   	cursor:pointer;
@@ -20,8 +23,13 @@ ul{
     height: 200px;
     background: url('../assets/sprite.png') -591px 0;
     zoom: 30%;
+    margin-top:55%;
+    
 }
-
+#menu{
+	margin-right: 2%;
+	margin-top:50%;
+}
 .menu{
 	position: absolute;
 	background-color: #037abe;
@@ -29,7 +37,6 @@ ul{
     height: 27%;
     margin:auto;
 }
-
 /*----Header-----*/
 
 header{
@@ -37,10 +44,24 @@ header{
 	display:-ms-flexbox;
 	display:flex;
 	background-color:green;
+	-ms-flex-pack:distribute;
+	    justify-content:space-around;
+	margin:3% auto;
 }
+
 /*---Logo---*/
 
 #logo{
 	
-	height:10em;
+	height:220px;
+	margin-right: 7.5%;
+}
+#title{
+	margin-top:10%;
+}
+/*---Body ---*/
+body{
+	background:url('../assets/b.png') no-repeat;
+	background-size:100% 100%;
+
 }

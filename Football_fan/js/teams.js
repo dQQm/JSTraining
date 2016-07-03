@@ -18,13 +18,13 @@
 
 
         var teamsNum = teams.teams.length;
-		var perrent=$('.teams');
+		var parrent=$('.teams');
         var name='';
         for (let i = 0; i < teamsNum; i++) {
             name=teams.teams[i].name;
             name=name.replace(/\s/g,'_');
             console.log(name);
-		perrent.append('<div><img class="flag" onclick=redirect("'+name+'") src="'+
+		parrent.append('<div class="tema"><img class="flag" onclick=redirect("'+name+'") src="'+
         teams.teams[i].crestUrl+'"/><h2 class="teamName">'+teams.teams[i].name +'</h2></div>');
 		
         }

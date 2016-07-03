@@ -34,8 +34,8 @@
     function player(player){
         var perrent = $('.players');
         for(let x in player.players){
-            perrent.append('<div class="singlePlayer"><h3>Name : '+ player.players[x].name + '</h3><p>Position :' +
-                player.players[x].position + '</p><p>Birth date :' + player.players[x][11] + '</p><p>League :' +
-                 player.players[x].league + '</p><p class="bio">' + /*player.players[x].bio +*/ '</p></div>');
+            perrent.append(`<div class="singlePlayer"><h3>Name :  ${player.players[x].name}</h3><p>Position :
+                ${player.players[x].position}</p><p>Birth date : ${player.players[x][11]} </p><p>League :
+                 ${player.players[x].league}</p><p class="bio"> ${player.players[x].bio} </p></div>`);
         }
     }    

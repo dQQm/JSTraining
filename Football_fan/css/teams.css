@@ -6,11 +6,12 @@
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
 }
+
 .flag{
-	width:21.875em ;
-	height:12.5em;
+	width:350px;
+	height:200px;
 	cursor:pointer;
 }
 h2{
-	text-align:center
+	text-align:center;
 }
