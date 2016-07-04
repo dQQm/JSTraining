@@ -11,8 +11,12 @@
 
 .match{
 	display:flex;
+	flex-flow: row wrap;
 	width:30%;
 	margin:0.5%;
+	text-transform: uppercase;
+	color:white;
+	 font-weight: 900;
 
 }
 
@@ -30,5 +34,14 @@
 
 .neutral, .loser, .winner{
 	padding:5%;
-	width:40%;
+	width:38%;
+}
+
+.team{
+	display:flex;
+
+}
+.left{
+	text-align:right;
+	border-right: 1px black solid;
 }

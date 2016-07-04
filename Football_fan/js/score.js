@@ -42,13 +42,16 @@ function checkWinner(away,home,awayScore,homeScore){
     var result = '';
 
     if(awayScore>homeScore){
-       result = `<div class="winner">${away}:${awayScore}</div><div class="loser">${home}:${homeScore}</div>`;
+       result = `<div class="winner left">${away}</div><div class="loser">${home}</div>
+        <div class="winner left">${awayScore}</div><div class="loser score">${homeScore}</div>`;
 
     }else if(awayScore<homeScore){
-        result = `<div class="loser">${away}:${awayScore}</div><div class="winner">${home}:${homeScore}</div>`;
+        result = `<div class="loser left">${away}</div><div class="winner">${home}</div>
+         <div class="loser left">${awayScore}</div><div class="winner score">${homeScore}</div>`;
     }
     else{
-        result = `<div class="neutral">${away}:${awayScore}</div><div class="neutral">${home}:${homeScore}</div>`;
+        result = `<div class="neutral left">${away}</div><div class="neutral team">${home}</div>
+       <div class="neutral left">${awayScore}</div><div class="neutral score">${homeScore}</div>`;
     }
     return result;
 }

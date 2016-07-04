@@ -29,6 +29,7 @@ ul{
 #menu{
 	margin-right: 2%;
 	margin-top:50%;
+	color:white;
 }
 .menu{
 	position: absolute;
@@ -43,21 +44,25 @@ header{
 	display: fixed;
 	display:-ms-flexbox;
 	display:flex;
-	background-color:green;
 	-ms-flex-pack:distribute;
 	    justify-content:space-around;
-	margin:3% auto;
-}
 
+}
+.page-tittle{
+	    background-color: gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /*---Logo---*/
 
 #logo{
 	
 	height:220px;
-	margin-right: 7.5%;
+	margin-right: 4%;
 }
 #title{
-	margin-top:10%;
+	margin-top:6%;
+	color:white;
 }
 /*---Body ---*/
 body{
@@ -65,3 +70,48 @@ body{
 	background-size:100% 100%;
 
 }
+
+/*-----Main content------*/
+.wrap{
+	padding-top:5%;
+	padding-bottom:5%;
+	background-color:white;
+}
+
+
+
+/*----FOOTER----*/
+
+footer{
+	margin-bottom:5%;
+	margin-top: 2%;
+}
+.footer-content{
+	margin:0 auto;
+}
+
+	/*------Social media icons-----*/
+#social-media{
+	display: inline-flex;
+	margin-left: 43%;
+}
+#facebook{
+    background: url('../assets/sprite.png') -186px 0;
+}
+
+#twitter{
+
+	background: url('../assets/sprite.png') -367px 0;
+}
+
+#youtube{
+    background: url('../assets/sprite.png') -367px -184.3px;
+}
+
+#youtube, #twitter, #facebook{    
+	width: 200px;
+    height: 200px;
+    cursor: pointer;
+	zoom: 30%;
+}
+
