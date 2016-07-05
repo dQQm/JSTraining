@@ -15,33 +15,35 @@
 	width:30%;
 	margin:0.5%;
 	text-transform: uppercase;
-	color:white;
-	 font-weight: 900;
-
-}
-
-.winner{
-	background-color:green;
+	font-weight: 900;
 }
 
 .loser{
-	background-color:red;
+  background-color:rgb(239, 44, 49);;
 }
-
+.winner {
+  background-color:rgba(77, 173, 77, 0.84);
+  
+}
 .neutral{
-	background-color:blue;
-}
-
-.neutral, .loser, .winner{
-	padding:5%;
-	width:38%;
+  background-color:#226BFE;
 }
 
 .team{
-	display:flex;
+	background-color:#eaeaea;
+}
 
+.team, .loser, .winner{
+	padding:5%;
+	width:40%;
 }
 .left{
-	text-align:right;
-	border-right: 1px black solid;
+  border-top-left-radius:40%;
+}
+
+.score{
+   text-align:center;
+   padding:5%;  
+   width:20%;
+  
 }

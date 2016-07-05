@@ -1,4 +1,11 @@
 /* ----navigation menu---- */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
+/*---Body ---*/
+body{
+	background:url('../assets/b.png') no-repeat;
+	background-size:100% 100%;
+	font-family:Oswald;
+}
 ul{
 	display:none;
 	list-style-type: none;
@@ -64,12 +71,7 @@ header{
 	margin-top:6%;
 	color:white;
 }
-/*---Body ---*/
-body{
-	background:url('../assets/b.png') no-repeat;
-	background-size:100% 100%;
 
-}
 
 /*-----Main content------*/
 .wrap{
