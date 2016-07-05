@@ -1,6 +1,7 @@
 .content{
 	display:-ms-flexbox;
 	display:flex;
+	width:80%;
 	-ms-flex-line-pack:distribute;
 	    -ms-flex-pack:distribute;
 	        justify-content:space-around;
