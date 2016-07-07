@@ -1,0 +1,65 @@
+.content{
+background-color:white;
+}
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+ width:80%;
+ margin:0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.top {
+  background-image:url('../assets/meet .jpg');
+}
+
+.footer {
+  background-image:url('../assets/history.jpg');
+}
+
+
+.aside-1 {
+  
+   background-image:url('../assets/golden-boots-2.png');
+}
+
+.aside-2 {
+ 
+   background-image:url('../assets/best_player.jpg');
+  
+}
+.aside-3 {
+ 
+   background-image:url('../assets/fantasy.png');
+  
+}
+.aside-4 {
+ 
+   background-image:url('../assets/charity.jpg');
+  
+}
+.aside-1,.aside-2, .aside-3,.aside-4{
+   width:40%;
+   height:250px;
+   margin:1%;
+  
+}
+.top ,.footer{
+height:150px}
+@media all and (min-width: 600px) {
+  .aside { 
+  flex: 1 auto; 
+  }
+}
