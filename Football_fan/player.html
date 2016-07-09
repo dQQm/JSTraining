@@ -13,14 +13,14 @@
     </head>
     <body>
         <header role="banner">
-            <header role="banner">
-                <h1 id="title">Football Fan</h1>
-                <img role="logo" id="logo" src="assets/logo.png"/>
-                
-                <nav class="nav">
-                    <div id="menu">
-                        <h2>MENU</h2>
-                    </div>
+            <h1 id="title">Football Fan</h1>
+            <img role="logo" id="logo" src="assets/logo.png"/>
+            
+            <nav class="nav">
+                <div id="menu">
+                    <h2>MENU</h2>
+                </div>
+                <div id="toggle-nav">
                     <div class="toggle-nav" onclick="menu()"></div>
                     <ul class="menu">
                         <li><a href="index.html">Home</a></li>
@@ -29,35 +29,35 @@
                         <li><a href="fan_zone.html">Fan Zone</a></li>
                         <li><a href="about_us.html">About us</a></li>
                     </ul>
-                </nav>
-            </header>
-			 <h2 class="page-tittle">Players</h2>
-            <div class="wrap">
-                <main role="teams" class="players">
+                    <div>
+                    </nav>
+                </header>
+                <h2 class="page-tittle">Players</h2>
+                <div class="container">
+                    <div class="players">
+                  
+                    </div>
+                </div>
+                <footer role="contentinfo">
+                    <div class="footer-content">
+                        <p>Follow us on :</p>
+                        <div id="social-media">
+                            <div id="facebook">
+                            </div>
+                            <div id="youtube">
+                            </div>
+                            <div id="twitter">
+                            </div>
+                        </div>
+                        <address>
+                            <p>For further information, please contact <a href="mailto:admin@example.com">Maria Zhingova</a>.</p>
+                        </address>
+                        <small>Copyright &copy; <time datetime="2016">2016</time></small>
+                    </div>
+                </footer>
+                <script src="node_modules/jquery/dist/jquery.js"></script>
+                <script src="js/main.js"></script>
+                <script src="js/players.js"></script>
                 
-                </main>
-            </div>
-            
-          <footer role="contentinfo">
-            <div class="footer-content">
-            <p>Follow us on :</p>
-            <div id="social-media">
-            <div id="facebook">
-            </div>
-            <div id="youtube">
-            </div>
-            <div id="twitter">
-            </div>
-            </div>
-            <address>
-                <p>For further information, please contact <a href="mailto:admin@example.com">Maria Zhingova</a>.</p>
-            </address>
-            <small>Copyright &copy; <time datetime="2016">2016</time></small>
-            </div>
-        </footer>
-            <script src="node_modules/jquery/dist/jquery.js"></script>
-            <script src="js/score.js"></script>
-            <script src="js/players.js"></script>
-            
-        </body>
-    </html>
+            </body>
+        </html>

@@ -25,7 +25,7 @@
             name=name.replace(/\s/g,'_');
             console.log(name);
 		parrent.append('<div class="tema"><img class="flag" onclick=redirect("'+name+'") src="'+
-        teams.teams[i].crestUrl+'"/><h2 class="teamName">'+teams.teams[i].name +'</h2></div>');
+        teams.teams[i].crestUrl+'"/><h3 class="teamName">'+teams.teams[i].name +'</h3></div>');
 		
         }
     }
@@ -33,5 +33,5 @@
 // function for redirection 
 function redirect(name){
 
-    window.location.href="http://localhost:8080/player.html?"+name;
+    window.location.href="../player.html?"+name;
 }

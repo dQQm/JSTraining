@@ -12,18 +12,26 @@ ul{
 	list-style-type: none;
 	position: absolute;
 }
+
  li{
  	margin:10%;
  	border-bottom:1px blue solid;
  }
+
  li a{
  	text-decoration:none;
  	color:white;
  }
+
  .nav {
  	display:inline-flex;
  	margin-right:2%;
  }
+
+ #toggle-nav{
+ 	margin-top: 25%;
+ }
+
 .toggle-nav{
   	text-decoration:none;
   	cursor:pointer;
@@ -42,9 +50,8 @@ ul{
 .menu{
 	position: absolute;
 	background-color: #037abe;
-    width: 20%;
-    height: 27%;
-    margin:auto;
+    width: 10%;
+    padding:0;
 }
 /*----Header-----*/
 
@@ -57,9 +64,10 @@ header{
 
 }
 .page-tittle{
-	    background-color: gray;
+	background-color: gray;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left:3%;
 }
 /*---Logo---*/
 

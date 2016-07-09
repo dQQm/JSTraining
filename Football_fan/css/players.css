@@ -5,11 +5,37 @@
 	    flex-wrap: wrap;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
+	padding-top:5%;
+	padding-bottom:5%;
+	margin:0 auto;
+	width:80%;
+}
+.container{
+	background-color:white;
+}
+.singlePlayer{
+	width:30%;
+	padding:1%;
+	background-color:#eaeaea;
+	margin-bottom:1%;
+}
+.bio{
+	white-space: nowrap;
+	height:10%;
+	overflow: hidden;
+    text-overflow: ellipsis;
 
 }
-
-
-
+.bio:hover{
+    cursor: pointer;
+    overflow: visible;
+    position: absolute;
+    background-color: rgb(117, 162, 255);
+    width: 30%;
+    height: 50%;
+    white-space: normal;
+    padding: 2%;
+}
 h3{
-	text-align:center
+
 }
