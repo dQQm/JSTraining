@@ -4,28 +4,41 @@
   margin:0 auto;
 }
 .news{
-  width:25%;
+  width:100%;
  background: lightgreen;
 }
 .players{
- 
+    width:100%;
  background: pink;
 }
 .match{
-   width:20%;
+   width:60%;
+  
  background: purple;
 }
 .winer{
  background: gold;
 }
+.teams{
+   width:100%;
+ background: gray;
+}
+.left-side{
+  width:30%;
+}
+.right-side{
+  width:30%;
+}
 .fanzone{
  background: red;
 }
-.teams{
-   width:50%;
- background: gray;
+.articles{
+  display:flex;
 }
 
-.content > *{
-	display:inline-block;
+
+@media all and (min-width: 600px) {
+  .left-side { 
+  flex: 1 auto; 
+  }
 }
