@@ -1,11 +1,16 @@
 
 .content{
-  width:95%;
+  width:80%;
   margin:0 auto;
+  padding-top:3%;
+  padding-bottom:3%;
+}
+.articles > *{
+margin:1%;
 }
 .news{
-  width:100%;
- background: lightgreen;
+  width:75%;
+ background: Black;
 }
 .players{
     width:100%;
@@ -13,11 +18,13 @@
 }
 .match{
    width:60%;
-  
- background: purple;
+
 }
 .winer{
- background: gold;
+
+}
+.score-img{
+width:400px;
 }
 .teams{
    width:100%;
@@ -30,15 +37,52 @@
   width:30%;
 }
 .fanzone{
- background: red;
+
 }
 .articles{
   display:flex;
 }
+.container{
+background-color:white;
+}
+iframe{
+width:100%; 
+height:100%; 
+height:230px;
+}
 
-
+.fan-zone-img{
+width:100%
+}
+h5{
+position:absolute;
+color:white;
+font-size:2em;
+padding:2%;
+background-color:rgba(128, 128, 128, 0.56); 
+}
+#fan{
+padding:1%;
+}
 @media all and (min-width: 600px) {
   .left-side { 
   flex: 1 auto; 
   }
+}
+.news-img{
+width:100%;
+}
+
+
+
+
+#slideshow { 
+   
+    position: relative; 
+    width: 100%; 
+
+}
+
+#slideshow > div { 
+    position: absolute; 
 }
