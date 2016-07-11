@@ -1,7 +1,7 @@
 .content{
 background-color:white;
 }
-.wrapper {
+.wrapper, .sides {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -10,78 +10,74 @@ background-color:white;
   -webkit-flex-flow: row wrap;
   flex-flow: row wrap;
   font-weight: bold;
- width:80%;
- margin:0 auto;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  width:80%;
+  margin:0 auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .wrapper > * {
   padding: 10px;
   flex: 1 100%;
 }
-
+.sides > * {
+  padding: 10px;
+  flex: 1 100%;
+}
 .top {
-  background-image:url('../assets/meet .jpg') ;
-  background-repeat: no-repeat;
-  text-shadow: 2px 2px black;
+
   color:white;
   font-size:2.5em;
 
 }
 
 .footer {
-  background-image:url('../assets/history.jpg');
-  background-repeat: no-repeat;
-    text-shadow: 2px 2px black;
-  color:white;
-  font-size:1.5em;
+  font-size:2.5em;
 }
 
 
 .aside-1 {
   
-  background-image:url('../assets/golden-boot.jpg');
-  background-repeat: no-repeat;
-  text-shadow: 2px 2px black;
   color:white;
   font-size:1.5em;
 }
 
 .aside-2 {
  
-  background-image:url('../assets/best_player.jpg');
-  background-repeat: no-repeat;
-  text-shadow: 2px 2px black;
+
   color:white;
   font-size:1.5em;
   
 }
 .aside-3 {
- 
-  background-image:url('../assets/fantasy.png');
-  background-repeat: no-repeat;
+
+
   font-size:1.5em;
   
 }
 .aside-4 {
  
-   background-image:url('../assets/charity.jpg');
-   background-repeat: no-repeat;
-    text-shadow: 2px 2px black;
   color:white;
   font-size:1.5em;
 }
-.aside-1,.aside-2, .aside-3,.aside-4{
-   width:40%;
-   height:250px;
-   margin:1%;
-  
+
+.aside-4, .aside-3, .aside-2, .aside-1{
+width: 48%;}
+h5{
+position:absolute;
+color:white;
+padding:1%;
+background-color:rgba(128, 128, 128, 0.56); 
 }
-.top ,.footer{
-height:150px}
+.img-history{
+width:100%;
+}
+.news-img{
+width:100%;}
+
+
 @media all and (min-width: 600px) {
   .aside { 
-  flex: 1 auto; 
+  flex:0 auto; 
   }
 }
